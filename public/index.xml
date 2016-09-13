@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Japan dodgeball</title>
+    <link>http://www.japandodgeball.com/</link>
+    <description>Recent content on Japan dodgeball</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Sep 2016 15:49:47 +0900</lastBuildDate>
+    <atom:link href="http://www.japandodgeball.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>http://www.japandodgeball.com/about/</link>
+      <pubDate>Tue, 13 Sep 2016 15:49:47 +0900</pubDate>
+      
+      <guid>http://www.japandodgeball.com/about/</guid>
+      <description>&lt;p&gt;yey&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
