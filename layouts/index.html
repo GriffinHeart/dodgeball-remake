@@ -1,17 +1,22 @@
 {{ range .Data.Pages }}
   {{ if eq .Type "index" }}
     {{ partial "head" . }}
-
-      <div id="container">
-          {{ partial "header" . }}
-
-          <div class="outer">
-            {{ partial "single_article" . }}
-          </div>
-      </div>
-
-      {{ partial "footer" . }}
-      </body>
-      </html>
   {{ end }}
 {{ end }}
+
+  <div id="container">
+      {{ partial "header" . }}
+
+      <div class="outer">
+        {{ range .Data.Pages }}
+          {{ if eq .Type "index" }}
+            {{ partial "single_article" . }}
+          {{ end }}
+        {{ end }}
+        {{ partial "article_list" . }}
+      </div>
+  </div>
+
+  {{ partial "footer" . }}
+  </body>
+  </html>
